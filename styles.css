@@ -1,0 +1,67 @@
+body {
+	background: black;
+}
+
+h1 {
+	font-family: "Playfair Display", serif;
+	font-size: 1;
+}
+
+p {
+	font-family: "Playfair Display", serif;
+	font-size: 13px;
+}
+
+input {
+	font-family: "Playfair Display", serif;
+
+	font-size: 12px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	padding: 0 1%;
+}
+.postcard-header img {
+	width: 70px;
+	height: 70px;
+}
+
+.postcard-header h1 {
+	width: 800px;
+	height: 40px;
+	margin: x;
+	padding-left: 2%;
+}
+
+.postcard-body {
+	display: flex;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.body-left,
+.body-right {
+	padding: 0 2% 1%;
+}
+
+input {
+	color: grey;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 5% 5%;
+}
+button {
+	background-color: grey;
+}
